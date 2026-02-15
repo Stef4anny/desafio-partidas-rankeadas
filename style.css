@@ -1,0 +1,99 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estrutura principal */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f0f0f0;
+
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Centraliza o conteúdo principal */
+main {
+    flex: 1;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    text-align: center;
+    padding: 40px 20px;
+}
+
+h1 {
+    margin-bottom: 10px;
+}
+
+#welcome-h2 {
+    margin-bottom: 20px;
+}
+
+p {
+    margin-bottom: 40px; /* espaço antes do formulário */
+}
+
+form {
+    margin-top: 20px;
+}
+
+form div {
+    margin-bottom: 15px;
+}
+
+input {
+    padding: 8px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    width: 200px;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Footer */
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.container-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo-footer {
+    display: flex;
+    gap: 15px;
+}
+
+.logo-rodape {
+    width: 30px;
+    height: 30px;
+    transition: 0.3s;
+}
+
+.logo-rodape:hover {
+    transform: scale(1.1);
+}
